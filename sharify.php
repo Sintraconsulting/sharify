@@ -31,7 +31,7 @@ include_once ('admin/sharify_admin.php'); //Get Admin Settings
 function sharify_css()
 {
     //wp_register_style( 'sharify', plugins_url( 'sharify-style.php', __FILE__ ), false, NULL, 'all' );
-    wp_register_style( 'sharify', plugins_url( 'sharify-style.css', __FILE__ ), false, NULL, 'all' );
+    wp_register_style( 'sharify', plugins_url( 'sharify-sintra-config.css', __FILE__ ), false, NULL, 'all' );
     wp_register_style( 'sharify-icon', plugins_url( 'icon/css/sharify.css', __FILE__ ), false, NULL, 'all' );
 	wp_enqueue_style('sharify');
 	wp_enqueue_style('sharify-icon');
