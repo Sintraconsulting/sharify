@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Sharify
+ * Plugin Name: Sharify - sintra custom
  * Plugin URI: https://github.com/Sintraconsulting/sharify
  * Description: Sharify is a fast and simple plugin for sharing buttons on WordPress. The plugin lets you display responsive sharing 
  * buttons on your WordPress website!
