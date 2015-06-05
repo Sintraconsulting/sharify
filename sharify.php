@@ -2,10 +2,10 @@
 
 /**
  * Plugin Name: Sharify
- * Plugin URI: https://wordpress.org/plugins/sharify/
+ * Plugin URI: https://github.com/Sintraconsulting/sharify
  * Description: Sharify is a fast and simple plugin for sharing buttons on WordPress. The plugin lets you display responsive sharing 
  * buttons on your WordPress website!
- * Version: 3.2
+ * Version: 3.2-sintra
  * Author: imehedidip
  * Author URI: http://twitter.com/mehedih_
  * Text Domain: sharify
@@ -30,7 +30,8 @@ include_once ('admin/sharify_admin.php'); //Get Admin Settings
 //Enqueue Styles
 function sharify_css()
 {
-    wp_register_style( 'sharify', plugins_url( 'sharify-style.php', __FILE__ ), false, NULL, 'all' );
+    //wp_register_style( 'sharify', plugins_url( 'sharify-style.php', __FILE__ ), false, NULL, 'all' );
+    wp_register_style( 'sharify', plugins_url( 'sharify-style.css', __FILE__ ), false, NULL, 'all' );
     wp_register_style( 'sharify-icon', plugins_url( 'icon/css/sharify.css', __FILE__ ), false, NULL, 'all' );
 	wp_enqueue_style('sharify');
 	wp_enqueue_style('sharify-icon');
